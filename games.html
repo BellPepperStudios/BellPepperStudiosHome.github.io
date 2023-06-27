@@ -8,7 +8,25 @@
             div {text-align: center;}
             iframe {text-align: center;}
 
-                  body {
+            .button {
+                background-color: rgb(42, 117, 230);
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                transition-duration: 0.4s;
+            }
+
+            .button:hover {
+                background-color: rgb(26, 87, 179);
+            }
+
+            body {
   font-family: 'Brush Script MT', cursive;
 }
             </style>
@@ -21,10 +39,10 @@
     <body style="background-color:rgb(56, 56, 56)">
         <h1 style="color:white">Games</h1>
         <p style="color:white">These are the games I have made and links to sites like github and itch.io</p>
-
-        <a href="https://bell-pepper-studios.itch.io/" style="color:rgb(2, 189, 189)"><center>itch.io</center></a>
-        <a href="https://github.com/BellPepperStudios" style="color:rgb(2, 189, 189)"><center>github.io</center></a>
-        <a href="https://scratch.mit.edu/users/catgamer17/" style="color:rgb(2, 189, 189)"><center>old scratch account</center></a>
+        <center>
+            <a href="https://bell-pepper-studios.itch.io/" class="button"><center>itch.io</center></a>
+        <a href="https://github.com/BellPepperStudios" class="button"><center>github.io</center></a>
+        <a href="https://scratch.mit.edu/users/catgamer17/" class="button"><center>old scratch account</center></a>
         <br>
         <h1 style="color:white">Some Games I made</h1>
         <center><iframe src="https://scratch.mit.edu/projects/634425733/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen="yes"></iframe></center>
@@ -32,6 +50,7 @@
         <center><iframe frameborder="0" src="https://itch.io/embed/1986328?border_width=2" width="554" height="169"><a href="https://bell-pepper-studios.itch.io/jumpy-rocket-game">Jumpy Rocket by Bell Pepper Studios</a></iframe></center>
         <br>
         <br>
-        <a href="index.html" style="color:rgb(2, 189, 189)"><center>Home</center></a>
+        <a href="home.html" class="button"><center>Home</center></a>
+        </center>
     </body>
 </html>
